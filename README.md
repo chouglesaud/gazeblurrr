@@ -6,7 +6,7 @@
 
 > “Tell the believing men to lower their gaze and guard their chastity. That is purer for them. And tell the believing women to lower their gaze and guard their chastity.” — Qur’an 24:30–31
 
-Built to help the ummah protect their eyes, hearts and imaan.
+Built to help anyone protect their eyes and heart.
 
 ## Features
 - **Per-website on/off.** Not global. Switch each site from the toolbar button. 30 popular sites included (Google, YouTube, Instagram, X, Reddit, TikTok, Facebook, Pinterest…), any other site can be added.
@@ -35,7 +35,7 @@ ui/             popup + settings: React, TypeScript, Tailwind, Radix (built with
 Images are re-fetched by the extension (so cross-origin pictures can be read) and videos are sampled as frames about every 1.5 s while playing.
 
 ## Limits
-Not perfect: misses and false alarms happen, illustrations are weaker, DRM video can’t be inspected, and cross-origin video that browsers won’t expose stays blurred. It supports your discipline; it doesn’t replace it.
+Not perfect: misses and false alarms happen, illustrations are weaker, DRM video can’t be inspected, and cross-origin video that browsers won’t expose stays blurred. It helps. It doesn’t replace your own care.
 
 ## Contributing
 See [CONTRIBUTING.md](CONTRIBUTING.md). Ideas welcome: translations (Arabic, Urdu…), a PIN to protect settings, Firefox port, a better model.

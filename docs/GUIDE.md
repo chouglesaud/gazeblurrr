@@ -51,4 +51,4 @@ Both kinds of correction are listed under *Corrections* in settings, where you c
 | “Missing models/detector.onnx” | You cloned the source: run `npm install`. |
 
 ## Honest limits
-No detector is perfect: it can miss things and blur innocent things, drawings/cartoons are caught less reliably, and protected (DRM) video can’t be checked. FilthBlurrr is a helper to make lowering the gaze easier — not a replacement for it.
+No detector is perfect: it can miss things and blur innocent things, drawings/cartoons are caught less reliably, and protected (DRM) video can’t be checked. FilthBlurrr is a helper for anyone who wants to guard what they see. It makes that easier. It does not replace your own care.
