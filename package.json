@@ -1,0 +1,38 @@
+{
+  "name": "filthblurrr",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Chrome extension that blurs inappropriate images and videos on the websites you choose, using an on-device detector.",
+  "license": "AGPL-3.0-or-later",
+  "scripts": {
+    "setup": "node scripts/setup.mjs",
+    "postinstall": "node scripts/setup.mjs",
+    "check": "tsc --noEmit && node --check src/content.js && node --check src/background.js",
+    "package": "npm run build && node scripts/package.mjs",
+    "dev": "node scripts/dev.mjs",
+    "build": "node scripts/build.mjs"
+  },
+  "dependencies": {
+    "@radix-ui/react-checkbox": "^1.4.1",
+    "@radix-ui/react-radio-group": "^1.5.1",
+    "@radix-ui/react-select": "^2.4.1",
+    "@radix-ui/react-switch": "^1.4.1",
+    "clsx": "^2.1.1",
+    "lucide-react": "^1.61.0",
+    "onnxruntime-web": "1.19.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.3.3",
+    "@types/chrome": "^0.3.6",
+    "@types/react": "^18.3.31",
+    "@types/react-dom": "^18.3.7",
+    "@vitejs/plugin-react": "^4.7.0",
+    "fflate": "0.8.2",
+    "tailwindcss": "^4.3.3",
+    "typescript": "^5.9.3",
+    "vite": "^6.4.5"
+  }
+}

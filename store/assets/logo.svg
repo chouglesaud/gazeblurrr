@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <defs>
+    <filter id="b" x="-60%" y="-50%" width="220%" height="200%">
+      <feGaussianBlur stdDeviation="6"/>
+    </filter>
+    <clipPath id="card">
+      <rect width="128" height="128" rx="20"/>
+    </clipPath>
+    <mask id="right">
+      <rect x="63.5" y="0" width="80" height="128" fill="#fff"/>
+    </mask>
+    <mask id="left">
+      <rect width="64.1" height="128" fill="#fff"/>
+    </mask>
+    <g id="head">
+      <circle cx="61" cy="58" r="33.1"/>
+      <path d="M38.3 74 H84 V103.7 C84 109.7 61 111.7 61.2 109.7 C46.3 109.7 38.3 109.7 38.3 103.7 Z"/>
+    </g>
+  </defs>
+  <rect width="128" height="128" rx="20" fill="#12181c"/>
+  <g clip-path="url(#card)" fill="#dce4e7">
+    <use href="#head" mask="url(#left)"/>
+    <use href="#head" mask="url(#right)" filter="url(#b)"/>
+    <line x1="63.5" y1="16.3" x2="63.5" y2="110.9" stroke="#1f6f5c" stroke-width="3.4" stroke-linecap="round"/>
+  </g>
+</svg>

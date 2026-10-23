@@ -1,0 +1,47 @@
+/* Injected at document_start so the very first paint is already covered.
+   It only matches elements FilthBlurrr has marked, so it does nothing on
+   websites the user has not switched on. */
+
+[data-fb="pending"] {
+  filter: blur(14px) !important;
+  clip-path: inset(0) !important;
+}
+
+[data-fb="blocked"] {
+  filter: blur(28px) grayscale(0.4) !important;
+  clip-path: inset(0) !important;
+  cursor: pointer !important;
+}
+
+[data-fb="revealed"] {
+  filter: none !important;
+  outline: 2px solid rgba(27, 107, 79, 0.7) !important;
+  outline-offset: -2px;
+}
+
+/* Elements that hold text over a background picture: blur a layer behind the words. */
+.fb-bg-cover {
+  position: absolute;
+  inset: 0;
+  z-index: 2147483645;
+  pointer-events: none;
+  background-image: inherit;
+  background-size: inherit;
+  background-position: inherit;
+  background-repeat: inherit;
+  clip-path: inset(0);
+}
+
+.fb-bg-cover[data-state="pending"] {
+  filter: blur(14px);
+}
+
+.fb-bg-cover[data-state="blocked"] {
+  filter: blur(28px) grayscale(0.4);
+  pointer-events: auto;
+  cursor: pointer;
+}
+
+.fb-bg-cover[data-state="revealed"] {
+  display: none;
+}
