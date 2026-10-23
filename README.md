@@ -4,7 +4,7 @@
 
 **Guard your gaze online.** A free, open-source Chrome extension that blurs inappropriate images and videos on the websites *you* choose — privately, on your own computer.
 
-> “Tell the believing men to lower their gaze and guard their chastity. That is purer for them.” — Qur’an 24:30
+> “Tell the believing men to lower their gaze and guard their chastity. That is purer for them. And tell the believing women to lower their gaze and guard their chastity.” — Qur’an 24:30–31
 
 Built to help the ummah protect their eyes, hearts and imaan.
 

@@ -90,7 +90,10 @@ export default function OptionsView() {
         <p className="text-[13.5px] leading-snug">
           “Tell the believing men to lower their gaze and guard their chastity. That is purer for them.”
         </p>
-        <footer className="mt-1 text-[12.5px] text-muted">Qur’an 24:30</footer>
+        <p className="mt-1.5 text-[13.5px] leading-snug">
+          “And tell the believing women to lower their gaze and guard their chastity.”
+        </p>
+        <footer className="mt-1 text-[12.5px] text-muted">Qur’an 24:30–31</footer>
       </blockquote>
 
       {welcome && (
