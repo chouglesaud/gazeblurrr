@@ -1,0 +1,10 @@
+---
+description: Keep commits on the person's account only
+alwaysApply: true
+---
+
+# Commits stay on the person's account
+
+Never add `Co-authored-by: Cursor`, `cursoragent@cursor.com`, or any other Cursor agent trailer to a commit message.
+
+Do not pass `--no-verify` when committing. The repository hook removes that trailer if it is inserted automatically.
