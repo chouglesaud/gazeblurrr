@@ -6,7 +6,7 @@
 Search **GazeBlurrr** in the Chrome Web Store → **Add to Chrome**. *(Link will be added here once published.)*
 
 ### Option B — From a downloaded zip (no technical tools needed)
-1. Go to the project's **Releases** page and download `gazeblurrr-x.y.z.zip`.
+1. Go to the project's [**Releases** page](https://github.com/chouglesaud/gazeblurrr/releases) and download the latest `gazeblurrr-x.y.z.zip` file.
 2. Unzip it. You get a folder — put it somewhere permanent (Chrome reads from it every time it starts).
 3. Open Chrome and type `chrome://extensions` in the address bar.
 4. Turn on **Developer mode** (top-right).
