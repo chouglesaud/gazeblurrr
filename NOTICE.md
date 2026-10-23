@@ -1,6 +1,6 @@
 # Third-party components
 
-FilthBlurrr is licensed under the **GNU AGPL-3.0-or-later** (see `LICENSE`).
+GazeBlurrr is licensed under the **GNU AGPL-3.0-or-later** (see `LICENSE`).
 
 | Component | Use | License |
 |---|---|---|

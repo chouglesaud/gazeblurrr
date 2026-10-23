@@ -1,10 +1,10 @@
 # Chrome Web Store listing
 
-**Name:** FilthBlurrr
+**Name:** GazeBlurrr
 **Summary (≤132):** Guard your gaze. Blurs inappropriate images and videos on the websites you choose. Private, on-device, free and open source.
 
 **Description**
-Protect your eyes and your heart online. FilthBlurrr is for anyone. It blurs inappropriate pictures and videos *before* you see them — only on the websites you choose.
+Protect your eyes and your heart online. GazeBlurrr is for anyone. It blurs inappropriate pictures and videos *before* you see them — only on the websites you choose.
 
 • Switch each website on or off with one tap — Google, YouTube, Instagram, X, Reddit, TikTok and 25+ more ready to go
 • Man or Woman mode, and three simple strengths

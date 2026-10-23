@@ -46,7 +46,7 @@ export default function PopupView() {
     <div className="w-[280px] px-4 pb-3 pt-3.5">
       <header className="mb-3 flex items-center gap-2">
         <Logo />
-        <b className="font-semibold">FilthBlurrr</b>
+        <b className="font-semibold">GazeBlurrr</b>
       </header>
 
       <div className="flex items-center justify-between gap-3">

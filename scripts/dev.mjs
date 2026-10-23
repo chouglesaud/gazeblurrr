@@ -108,11 +108,11 @@ run("npm", ["run", "--silent", "build"]);
 
 const out = join(root, "dist", "unpacked");
 const { version } = JSON.parse(readFileSync(join(out, "manifest.json"), "utf8"));
-console.log(`→ Built FilthBlurrr ${version} → ${out}`);
+console.log(`→ Built GazeBlurrr ${version} → ${out}`);
 
 // ---------------------------------------------------------------- launch
 
-const profile = resolve((opt("profile") ?? join(home, ".filthblurrr-dev-profile")).replace(/^~/, home));
+const profile = resolve((opt("profile") ?? join(home, ".gazeblurrr-dev-profile")).replace(/^~/, home));
 mkdirSync(profile, { recursive: true });
 
 const url = args.includes("--no-open") ? [] : ["https://www.google.com/search?q=test&tbm=isch"];
@@ -132,9 +132,9 @@ child.unref();
 
 console.log(`→ Opened ${browserName} with a separate profile (${profile}).`);
 console.log(`
-If FilthBlurrr isn't in the toolbar (newer Chrome ignores the flag):
+If GazeBlurrr isn't in the toolbar (newer Chrome ignores the flag):
   1. open chrome://extensions   (brave://extensions in Brave)
   2. turn on Developer mode → Load unpacked → choose:
      ${out}
-After later builds just press the reload ⟳ button on the FilthBlurrr card.
+After later builds just press the reload ⟳ button on the GazeBlurrr card.
 If this profile's browser was already running, close it first so the new build loads.`);

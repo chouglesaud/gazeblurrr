@@ -1,6 +1,6 @@
-# Privacy Policy — FilthBlurrr
+# Privacy Policy — GazeBlurrr
 
-**FilthBlurrr collects nothing.** No analytics, no accounts, no servers, no tracking.
+**GazeBlurrr collects nothing.** No analytics, no accounts, no servers, no tracking.
 
 - **Pictures and videos** are checked by a model that is inside the extension. They are never uploaded anywhere.
 - **Your settings** (the websites you protect, strength, timer, and pictures you marked safe) are stored with `chrome.storage.local` on your computer. They are not synced and never transmitted.

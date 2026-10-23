@@ -1,4 +1,4 @@
-// sites.js — which websites FilthBlurrr protects.
+// sites.js — which websites GazeBlurrr protects.
 //
 // Protection is opt-in per website. A website is stored as its main domain
 // ("reddit.com"), which also covers "old.reddit.com", "www.reddit.com", etc.

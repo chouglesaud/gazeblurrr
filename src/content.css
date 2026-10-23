@@ -1,5 +1,5 @@
 /* Injected at document_start so the very first paint is already covered.
-   It only matches elements FilthBlurrr has marked, so it does nothing on
+   It only matches elements GazeBlurrr has marked, so it does nothing on
    websites the user has not switched on. */
 
 [data-fb="pending"] {

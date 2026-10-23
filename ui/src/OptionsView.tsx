@@ -83,7 +83,7 @@ export default function OptionsView() {
     <div className="mx-auto max-w-[640px] px-5 pb-16 pt-8">
       <header className="mb-4 flex items-center gap-2.5">
         <Logo />
-        <h1 className="text-lg font-semibold">FilthBlurrr</h1>
+        <h1 className="text-lg font-semibold">GazeBlurrr</h1>
       </header>
 
       <blockquote className="mb-6 border-l-[3px] border-accent py-0.5 pl-3.5">
@@ -98,7 +98,7 @@ export default function OptionsView() {
 
       {welcome && (
         <div className="mb-6 flex items-center justify-between gap-3 border-l-[3px] border-accent py-1 pl-3.5">
-          <p>FilthBlurrr is on for the websites below. Choose Man or Woman first.</p>
+          <p>GazeBlurrr is on for the websites below. Choose Man or Woman first.</p>
           <Button
             onClick={() => {
               history.replaceState(null, "", location.pathname);

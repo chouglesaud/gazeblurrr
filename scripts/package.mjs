@@ -1,5 +1,5 @@
 // scripts/package.mjs — zips dist/unpacked (run `npm run build` first, or just `npm run package`)
-// into dist/filthblurrr-<version>.zip for the Chrome Web Store and GitHub Releases.
+// into dist/gazeblurrr-<version>.zip for the Chrome Web Store and GitHub Releases.
 
 import { zipSync } from "fflate";
 import { readFileSync, writeFileSync, readdirSync, statSync, existsSync } from "node:fs";
@@ -18,6 +18,6 @@ const add = (path) => {
 };
 add(src);
 
-const out = join(root, "dist", `filthblurrr-${version}.zip`);
+const out = join(root, "dist", `gazeblurrr-${version}.zip`);
 writeFileSync(out, zipSync(files, { level: 9 }));
 console.log(`${out} (${Object.keys(files).length} files, ${(statSync(out).size / 1e6).toFixed(1)} MB)`);

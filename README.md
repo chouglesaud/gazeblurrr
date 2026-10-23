@@ -1,6 +1,6 @@
-<p align="center"><img src="icons/icon128.png" width="96" alt="FilthBlurrr logo"></p>
+<p align="center"><img src="icons/icon128.png" width="96" alt="GazeBlurrr logo"></p>
 
-# FilthBlurrr
+# GazeBlurrr
 
 **Guard your gaze online.** A free, open-source Chrome extension that blurs inappropriate images and videos on the websites *you* choose — privately, on your own computer.
 
@@ -23,7 +23,7 @@ Full guide with steps: **[docs/GUIDE.md](docs/GUIDE.md)**
 
 - **Chrome Web Store:** coming soon.
 - **From a release zip:** download from Releases → unzip → `chrome://extensions` → Developer mode → *Load unpacked*.
-- **From source:** `git clone … && cd filthblurrr && npm install && npm run build`, then *Load unpacked* → `dist/unpacked`. Or just `npm run dev`.
+- **From source:** `git clone … && cd gazeblurrr && npm install && npm run build`, then *Load unpacked* → `dist/unpacked`. Or just `npm run dev`.
 
 ## How it works
 ```
