@@ -16,7 +16,7 @@ Search **GazeBlurrr** in the Chrome Web Store → **Add to Chrome**. *(Link will
 ### Option C — From source (developers)
 Requires [Node.js](https://nodejs.org) 18+.
 ```bash
-git clone https://github.com/saudchougle/gazeblurrr.git
+git clone https://github.com/chouglesaud/gazeblurrr.git
 cd gazeblurrr
 npm install        # downloads the model (checksum-verified) and the runtime
 npm run build      # builds the extension into dist/unpacked
